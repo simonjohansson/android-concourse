@@ -13,7 +13,7 @@ RUN dpkg --add-architecture i386 && \
     zlib1g:i386
 
 ENV ANDROID_SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
-    ANDROID_BUILD_TOOLS_VERSION=25.0.2 \
+    ANDROID_BUILD_TOOLS_VERSION=26.0.1 \
     ANDROID_APIS="android-19,android-20,android-21,android-22,android-23,android-24,android-25,android-26" \
     ANT_HOME="/usr/share/ant" \
     MAVEN_HOME="/usr/share/maven" \
